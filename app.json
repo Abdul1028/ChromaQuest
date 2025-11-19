@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abdul1028.chromaquest"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,11 +41,13 @@
           }
         }
       ],
-      "expo-horizon-core",
+      [
+        "expo-horizon-core",
         {
-          "horizonAppId": "25156818173971295",
+          "horizonAppId": "your-horizon-app-id",
           "supportedDevices": "quest2|quest3|quest3s"
         }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
