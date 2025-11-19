@@ -53,9 +53,11 @@ You can preview **Chroma Quest** directly on your device using Expo Go without b
 
 **Option 1: Scan the QR Code**
 
+![Chroma Quest QR Code](./chromaquest.svg)
+
 1. Install [Expo Go](https://expo.dev/go) on your iOS or Android device
 2. Open the Expo Go app
-3. Scan the QR code from `chromaquest.svg` in this repository
+3. Scan the QR code above (or from `chromaquest.svg` in this repository)
 4. The app will load directly on your device!
 
 **Option 2: Use the Preview URL**
