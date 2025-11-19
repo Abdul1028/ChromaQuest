@@ -45,6 +45,27 @@ A fast-paced color matching game designed for VR and Quest platforms. Test your 
    pnpm start
    ```
 
+## 📲 Preview the App
+
+### Try it with Expo Go
+
+You can preview **Chroma Quest** directly on your device using Expo Go without building the app!
+
+**Option 1: Scan the QR Code**
+
+1. Install [Expo Go](https://expo.dev/go) on your iOS or Android device
+2. Open the Expo Go app
+3. Scan the QR code from `chromaquest.svg` in this repository
+4. The app will load directly on your device!
+
+**Option 2: Use the Preview URL**
+
+Visit the Expo preview link to access the latest build:
+
+🔗 **[Preview on Expo](https://expo.dev/preview/update?message=Preview+build&updateRuntimeVersion=1.0.0&createdAt=2025-11-19T23%3A34%3A39.271Z&slug=exp&projectId=8265beba-a793-4dee-86ae-b0d408196e6c&group=5eaa9e8f-f1f1-4e3b-94a4-a2d9d2bda426)**
+
+**Note:** Expo Go has limitations and may not support all native features. For full functionality, especially VR/Quest features, use a development or production build.
+
 ## 🏗️ Building and Running
 
 This project uses Expo's config plugin system to create separate build flavors for standard Android devices and Meta Horizon OS (Quest) devices.
@@ -157,6 +178,7 @@ vr-app/
 ├── assets/             # Images, icons, and static assets
 ├── constants/          # App constants and theme
 ├── hooks/              # Custom React hooks
+├── chromaquest.svg     # QR code for Expo Go preview
 ├── app.json            # Expo configuration
 └── package.json        # Dependencies and scripts
 ```

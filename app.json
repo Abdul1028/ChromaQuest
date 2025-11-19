@@ -59,6 +59,12 @@
         "projectId": "8265beba-a793-4dee-86ae-b0d408196e6c"
       }
     },
-    "owner": "abdul1028"
+    "owner": "abdul1028",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8265beba-a793-4dee-86ae-b0d408196e6c"
+    }
   }
 }
