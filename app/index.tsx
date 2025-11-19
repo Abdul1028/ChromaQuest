@@ -8,7 +8,7 @@ import { ThemedView } from '@/components/themed-view';
 const COLORS = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8', '#F7DC6F'];
 const GAME_DURATION = 30; // seconds
 
-export default function HomeScreen() {
+export default function GameScreen() {
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(GAME_DURATION);
   const [gameActive, setGameActive] = useState(false);
@@ -103,7 +103,7 @@ export default function HomeScreen() {
   return (
     <ThemedView style={styles.container}>
       <ThemedView style={styles.header}>
-        <ThemedText type="title" style={styles.title}>Color Match</ThemedText>
+        <ThemedText type="title" style={styles.title}>Chroma Quest</ThemedText>
         <ThemedText type="subtitle" style={styles.score}>Score: {score}</ThemedText>
         <ThemedText style={styles.highScore}>High Score: {highScore}</ThemedText>
         {gameActive && (
@@ -277,3 +277,4 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
 });
+

@@ -39,7 +39,12 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-horizon-core",
+        {
+          "horizonAppId": "25156818173971295",
+          "supportedDevices": "quest2|quest3|quest3s"
+        }
     ],
     "experiments": {
       "typedRoutes": true,
