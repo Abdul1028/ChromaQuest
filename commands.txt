@@ -1,0 +1,14 @@
+To build android apk artifact at expo cloud (no heavy work done on machine)
+eas build -p android --profile preview
+This outputs:
+app-mobile-release.apk
+app-quest-release.apk as we have configured expo-horizon core in app.json
+
+
+Create preview
+eas update --branch preview --message "Initial preview"
+
+Update Preview
+eas update --branch preview --message "Update preview"
+
+

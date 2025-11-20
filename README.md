@@ -152,6 +152,9 @@ The following scripts are available in `package.json`:
 | `web` | `expo start --web` | Run web version |
 | `lint` | `expo lint` | Run ESLint |
 
+
+## Check **commands.txt** for commands to build and preview
+
 ## 📱 Platform Support
 
 - ✅ **Android** (Mobile & Quest)
